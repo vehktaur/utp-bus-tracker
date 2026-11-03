@@ -1,4 +1,4 @@
-PACKAGE_MANAGER ?= bun
+PACKAGE_MANAGER ?= npm
 
 .PHONY: install dev typecheck lint lint-fix test build check clean help
 

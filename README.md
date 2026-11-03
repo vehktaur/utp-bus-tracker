@@ -5,19 +5,19 @@ Live locations for the UTP shuttle buses, which have no GPS tracker. The phones 
 ## Getting started
 
 ```bash
-bun install
+npm install
 cp .env.example .env   # every key is optional
-bun run dev            # http://localhost:4100
+npm run dev            # http://localhost:4100
 ```
 
 With no keys, the app uses a built-in mock API (localStorage) and draws a to-scale schematic map. Add `VITE_GOOGLE_MAPS_API_KEY` for Google Maps and `VITE_BASE_ENDPOINT` for a real backend.
 
-| Command                      | What it does             |
-| ---------------------------- | ------------------------ |
-| `make dev` / `bun run dev`   | Dev server               |
-| `make check`                 | Typecheck + lint + tests |
-| `make test` / `bun run test` | Vitest (once / watch)    |
-| `make build`                 | Production build (PWA)   |
+| Command                    | What it does             |
+| -------------------------- | ------------------------ |
+| `make dev` / `npm run dev` | Dev server               |
+| `make check`               | Typecheck + lint + tests |
+| `make test` / `npm test`   | Vitest (once / watch)    |
+| `make build`               | Production build (PWA)   |
 
 TypeScript 7 runs `tsc` through the `@typescript/native` alias, while `typescript` stays on the TS 6 API package so typescript-eslint keeps working (see the [TS 7 release notes](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/)).
 

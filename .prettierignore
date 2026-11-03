@@ -1,4 +1,4 @@
 dist
 dev-dist
-bun.lock
+package-lock.json
 src/appRoute.gen.ts
