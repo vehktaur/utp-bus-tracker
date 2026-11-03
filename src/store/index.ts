@@ -1,0 +1,1 @@
+export { useSharingStore } from './sharing';

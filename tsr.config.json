@@ -1,0 +1,6 @@
+{
+  "routesDirectory": "./src/pages",
+  "generatedRouteTree": "./src/appRoute.gen.ts",
+  "routeFileIgnorePattern": ".*(store|components|_components|utils|hooks|types).*|.*\\.(test|spec)\\.(ts|tsx|js|jsx)$",
+  "quoteStyle": "single"
+}
